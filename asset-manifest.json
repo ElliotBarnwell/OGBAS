@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ogbas/static/css/main.093426dd.css",
-    "main.js": "/ogbas/static/js/main.65280413.js",
-    "static/js/453.779e7a3b.chunk.js": "/ogbas/static/js/453.779e7a3b.chunk.js",
-    "index.html": "/ogbas/index.html",
-    "main.093426dd.css.map": "/ogbas/static/css/main.093426dd.css.map",
-    "main.65280413.js.map": "/ogbas/static/js/main.65280413.js.map",
-    "453.779e7a3b.chunk.js.map": "/ogbas/static/js/453.779e7a3b.chunk.js.map"
+    "main.css": "/OGBAS/static/css/main.093426dd.css",
+    "main.js": "/OGBAS/static/js/main.bb12cad5.js",
+    "static/js/453.779e7a3b.chunk.js": "/OGBAS/static/js/453.779e7a3b.chunk.js",
+    "index.html": "/OGBAS/index.html",
+    "main.093426dd.css.map": "/OGBAS/static/css/main.093426dd.css.map",
+    "main.bb12cad5.js.map": "/OGBAS/static/js/main.bb12cad5.js.map",
+    "453.779e7a3b.chunk.js.map": "/OGBAS/static/js/453.779e7a3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.093426dd.css",
-    "static/js/main.65280413.js"
+    "static/js/main.bb12cad5.js"
   ]
 }
