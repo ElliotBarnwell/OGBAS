@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ElliotBarnwell.github.io/ogbas",
   "name": "ogbas",
+  "homepage": "https://elliotbarnwell.github.io/ogbas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
