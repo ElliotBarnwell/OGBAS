@@ -18,6 +18,7 @@ function App() {
         'Waiver of Interest & Penalties',
         'Director\'s Liability Issues',
         'Collection Issues',
+        'Business Reassessments with Proven Track Record',
         'Any other matter involving interactions with CRA'
       ]
     },
@@ -53,12 +54,19 @@ function App() {
         <div className="hero-content">
           <div className="logo-section">
             <h1 className="company-name">
-              <span className="name-line">OGB Consulting</span>
-              <span className="name-line">&amp; Expert Services</span>
+              <span className="name-line">OGB Tax Consulting</span>
+              <span className="name-line">&amp; Expert Reports</span>
             </h1>
             <div className="tagline">
               Four decades of principled advocacy
             </div>
+          </div>
+
+          {/* Contact prominently placed at top */}
+          <div className="contact-primary-top">
+            <div className="contact-name">Osborne G. Barnwell</div>
+            <a href="tel:416-528-9521" className="phone-number">📞 416-528-9521</a>
+            <p className="consultation-offer">Free 15-minute consultation to assess your case</p>
           </div>
           
           <div className="hero-questions">
@@ -73,9 +81,16 @@ function App() {
             </div>
           </div>
 
-          <div className="contact-primary">
-            <div className="contact-name">Osborne G. Barnwell</div>
-            <a href="tel:416-528-9521" className="phone-number">416-528-9521</a>
+          {/* Key differentiator */}
+          <div className="value-proposition">
+            <div className="value-card">
+              <h3>✓ Merit-Based Representation</h3>
+              <p>Your case will be carefully assessed during a complimentary 15-minute consultation. I only accept cases with merit—ensuring your time and resources are invested wisely.</p>
+            </div>
+            <div className="value-card">
+              <h3>✓ Proven Track Record</h3>
+              <p>Highly successful record in achieving significant outcomes relating to reassessments of businesses and resolving complex tax matters.</p>
+            </div>
           </div>
         </div>
       </header>
@@ -119,7 +134,7 @@ function App() {
             <div className="credential-item">
               <span className="credential-number">32</span>
               <span className="credential-label">Years as Lawyer</span>
-              <p>Advocacy in Income Tax, Excise Tax, Human Rights, and Immigration</p>
+              <p>Expert representation in tax, human rights, and immigration matters</p>
             </div>
           </div>
 
@@ -141,21 +156,38 @@ function App() {
         </div>
       </section>
 
+      {/* Important Notice Section */}
+      <section className="disclaimer">
+        <h2 className="section-title">Important Information</h2>
+        <div className="disclaimer-content">
+          <div className="disclaimer-box">
+            <h3>Scope of Services</h3>
+            <p>OGB Tax Consulting & Expert Reports provides expert consultation, case assessment, representation in dealings with government agencies, and preparation of expert reports.</p>
+            <p><strong>Please note:</strong> These services do not include advocacy as a litigation lawyer. If you require a lawyer for judicial representation at Court, you will need to engage someone qualified to provide litigation services.</p>
+          </div>
+          <div className="disclaimer-box">
+            <h3>Consultation Process</h3>
+            <p>All prospective clients receive a complimentary 15-minute consultation during which your case will be assessed to determine its merits. I maintain a commitment to only accepting cases with legitimate merit, ensuring the best use of your resources.</p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>OGB Consulting & Expert Services</h3>
+            <h3>OGB Tax Consulting & Expert Reports</h3>
             <p>Professional representation for tax, human rights, and immigration matters</p>
           </div>
           <div className="footer-contact">
             <h4>Contact</h4>
             <p>Osborne G. Barnwell</p>
             <a href="tel:416-528-9521">416-528-9521</a>
+            <p className="email-note">Call for your free 15-minute consultation</p>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} OGB Consulting & Expert Services. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} OGB Tax Consulting & Expert Reports. All rights reserved.</p>
         </div>
       </footer>
     </div>
