@@ -162,7 +162,7 @@ function App() {
         <div className="disclaimer-content">
           <div className="disclaimer-box">
             <h3>Scope of Services</h3>
-            <p>OGB Tax Consulting & Expert Reports provides expert consultation, case assessment, representation in dealings with government agencies, and preparation of expert reports.</p>
+            <p>OGB Tax Consulting & Expert Services provides expert consultation, case assessment, representation in dealings with government agencies, and preparation of expert services.</p>
             <p><strong>Please note:</strong> These services do not include advocacy as a litigation lawyer. If you require a lawyer for judicial representation at Court, you will need to engage someone qualified to provide litigation services.</p>
           </div>
           <div className="disclaimer-box">
