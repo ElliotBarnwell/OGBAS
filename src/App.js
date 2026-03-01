@@ -55,7 +55,7 @@ function App() {
           <div className="logo-section">
             <h1 className="company-name">
               <span className="name-line">OGB Tax Consulting</span>
-              <span className="name-line">&amp; Expert Reports</span>
+              <span className="name-line">&amp; Expert Services</span>
             </h1>
             <div className="tagline">
               Four decades of principled advocacy
@@ -176,7 +176,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>OGB Tax Consulting & Expert Reports</h3>
+            <h3>OGB Tax Consulting & Expert Services</h3>
             <p>Professional representation for tax, human rights, and immigration matters</p>
           </div>
           <div className="footer-contact">
@@ -187,7 +187,7 @@ function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} OGB Tax Consulting & Expert Reports. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} OGB Tax Consulting & Expert Services. All rights reserved.</p>
         </div>
       </footer>
     </div>
