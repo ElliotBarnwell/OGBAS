@@ -16,7 +16,7 @@ function App() {
         'Denial of Expenses',
         'Penalties',
         'Waiver of Interest & Penalties',
-        'Director\'s Liability Issues',
+        "Director's Liability Issues",
         'Collection Issues',
         'Business Reassessments with Proven Track Record',
         'Any other matter involving interactions with CRA'
@@ -46,6 +46,8 @@ function App() {
       ]
     }
   ];
+
+  const photoSrc = '/profile.jpg'; // Ensure this path is correct and the image is in the public folder
 
   return (
     <div className="app">
@@ -125,6 +127,16 @@ function App() {
       <section className="about">
         <h2 className="section-title">About Osborne G. Barnwell</h2>
         <div className="about-content">
+
+          {/* Photo */}
+          <div className="about-photo-wrapper">
+            <img
+              src={photoSrc}
+              alt="Osborne G. Barnwell"
+              className="about-photo"
+            />
+          </div>
+
           <div className="credentials">
             <div className="credential-item">
               <span className="credential-number">40+</span>
