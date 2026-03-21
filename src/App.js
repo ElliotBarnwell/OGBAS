@@ -201,6 +201,9 @@ function App() {
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} OGB Tax Consulting & Expert Services. All rights reserved.</p>
         </div>
+        <div className="footer-disclaimer">
+          <a href="https://www.flaticon.com/free-icons/tax" title="tax icons">Tax icons created by orvipixel - Flaticon</a>
+        </div>
       </footer>
     </div>
   );
