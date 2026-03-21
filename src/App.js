@@ -54,13 +54,16 @@ function App() {
       {/* Hero Section */}
       <header className="hero">
         <div className="hero-content">
-          <div className="logo-section">
-            <h1 className="company-name">
-              <span className="name-line">OGB Tax Consulting</span>
-              <span className="name-line">&amp; Expert Services</span>
-            </h1>
-            <div className="tagline">
-              Four decades of principled advocacy
+          <div className="hero-top">
+            <img src={photoSrc} alt="Osborne G. Barnwell" className="hero-photo" />
+            <div className="logo-section">
+              <h1 className="company-name">
+                <span className="name-line">OGB Tax Consulting</span>
+                <span className="name-line">&amp; Expert Services</span>
+              </h1>
+              <div className="tagline">
+                Four decades of principled advocacy
+              </div>
             </div>
           </div>
 
@@ -127,15 +130,6 @@ function App() {
       <section className="about">
         <h2 className="section-title">About Osborne G. Barnwell</h2>
         <div className="about-content">
-
-          {/* Photo */}
-          <div className="about-photo-wrapper">
-            <img
-              src={photoSrc}
-              alt="Osborne G. Barnwell"
-              className="about-photo"
-            />
-          </div>
 
           <div className="credentials">
             <div className="credential-item">
